@@ -19,7 +19,7 @@ Exploratory data analysis of global video game sales to identify market patterns
 
 **Key topics:** Platform lifecycle · Regional consumer profiles · Hypothesis testing · Correlation analysis
 
-> *Project under review — coming soon*
+> (https://github.com/lucianajost/data_analytics_portfolio/blob/main/notebook-6.ipynb)
 
 ---
 
