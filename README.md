@@ -32,7 +32,7 @@ Exploratory data analysis and statistical hypothesis testing on ride-sharing dat
 
 **Key finding:** Rides between the Loop and O'Hare take significantly longer on rainy Saturdays than on clear ones (p ≈ 9.13 × 10⁻⁸), rejecting the null hypothesis that weather has no effect on ride duration.
 
-> 📓 [View Notebook](zuber_chicago_ride_analysis.ipynb)
+> 📓 [View Notebook](zuber_chicago_ride_analysis.ipynb) · 📊 [View Presentation](Zuber_Chicago_Analysis_LuJ_Portfolio.pdf)
 
 <p align="left">
   <img src="images/03_top10_empresas_taxi.png" alt="Top 10 taxi companies by number of rides" width="420">
