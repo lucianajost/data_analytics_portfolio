@@ -80,5 +80,18 @@ Business decision analysis for an online store, combining ICE/RICE prioritizatio
 
 ---
 
+### 🛵 Food Delivery App: Funnel & A/A/B Font Test
+Analysis of user behavior in a food delivery app, covering the full purchase funnel from the main screen to payment, and a statistical test of whether a font change affected conversion.
+
+**Tools:** Python · Pandas · NumPy · Matplotlib · SciPy (statsmodels)
+
+**Key topics:** Conversion funnel analysis · A/A/B testing · Two-proportion z-test · Bonferroni correction
+
+**Key finding:** The font change had no statistically significant effect on any of the 20 test comparisons, even before correcting for multiple testing; the real opportunity is the ~38% drop-off between the main screen and the offers screen.
+
+> 📓 [View Notebook](food_delivery_funnel_ab_test.ipynb) · 📊 [View Presentation](Food_Delivery_Funnel_AAB_Test_LuJ_Portfolio.pdf)
+
+---
+
 ## Contact
 [LinkedIn](https://linkedin.com/in/lucianajost) · lucianajostlj@gmail.com
