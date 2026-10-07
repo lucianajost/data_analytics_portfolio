@@ -1,12 +1,12 @@
 # Data Analytics Portfolio
-### Luciana Jost | Marketing & Data Analytics
+### Luciana Jost | Business & Data Analytics
 
-Marketing professional combining 10+ years of brand strategy and events experience with data analytics skills. Currently completing a Master's in Marketing Management at IPAM Lisboa and a Data Analyst certification at TripleTen.
+Business and data analyst with 10+ years of experience in marketing, brand strategy and events. Every project here starts with a business question and ends with a recommendation. Currently completing a Master's in Marketing Management at IPAM Lisboa and a Data Analyst certification at TripleTen.
 
 ---
 
 ## Skills
-Python · Pandas · NumPy · Matplotlib · Seaborn · Statistical Analysis · Exploratory Data Analysis · Data Visualization
+SQL · Python · Pandas · NumPy · Matplotlib · Seaborn · SciPy · Tableau · Statistical Analysis · A/B Testing · Cohort Analysis · Data Visualization
 
 ---
 
@@ -93,5 +93,18 @@ Analysis of user behavior in a food delivery app, covering the full purchase fun
 
 ---
 
+### 📺 YouTube Trending Videos Dashboard (Tableau)
+Interactive dashboard for a video advertising team, showing which categories and countries dominate YouTube trending videos, based on 339,990 records across 5 countries (November 2017 to June 2018).
+
+**Tools:** Tableau Public
+
+**Key topics:** Dashboard design · Interactive filters · Category and regional analysis · Data storytelling
+
+**Key finding:** Entertainment accounts for 27.9% of all trending videos, more than double the second category. In the US, Music and Howto & Style weigh about twice as much as in other markets. The jump in total daily volume in February 2018 came from Japan entering the dataset, not from real growth.
+
+> 📊 [View Dashboard](https://public.tableau.com/views/YouTubeTrendingDashboard_17908531142200/Painel1)
+
+---
+
 ## Contact
-[LinkedIn](https://linkedin.com/in/lucianajost) · lucianajostlj@gmail.com
+[LinkedIn](https://www.linkedin.com/in/lujost) · lucianajostlj@gmail.com
