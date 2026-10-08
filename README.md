@@ -19,7 +19,8 @@ Exploratory data analysis of global video game sales to identify market patterns
 
 **Key topics:** Platform lifecycle · Regional consumer profiles · Hypothesis testing · Correlation analysis
 
-> 📓 [View Notebook](video_game_market_analysis.ipynb) · 📊 [View Presentation](VideoGame_Analysis_LuJ_Portfolio.pdf)
+> 📓 [View Notebook](video_game_market_analysis_EN.ipynb) · 📊 [View Presentation](VideoGame_Analysis_LuJ_Portfolio.pdf)  
+> 🇧🇷 Notebook also in Portuguese: [video_game_market_analysis.ipynb](video_game_market_analysis.ipynb)
 
 ---
 
@@ -32,7 +33,8 @@ Exploratory data analysis and statistical hypothesis testing on ride-sharing dat
 
 **Key finding:** Rides between the Loop and O'Hare take significantly longer on rainy Saturdays than on clear ones (p ≈ 9.13 × 10⁻⁸), rejecting the null hypothesis that weather has no effect on ride duration.
 
-> 📓 [View Notebook](zuber_chicago_ride_analysis.ipynb) · 📊 [View Presentation](Zuber_Chicago_Analysis_LuJ_Portfolio.pdf)
+> 📓 [View Notebook](zuber_chicago_ride_analysis.ipynb) · 📊 [View Presentation](Zuber_Chicago_Analysis_EN_LuJost.pdf)  
+> 🇧🇷 Presentation also in Portuguese: [Zuber_Chicago_Analysis_LuJ_Portfolio.pdf](Zuber_Chicago_Analysis_LuJ_Portfolio.pdf)
 
 <p align="left">
   <img src="images/03_top10_empresas_taxi.png" alt="Top 10 taxi companies by number of rides" width="420">
@@ -50,7 +52,8 @@ Marketing efficiency and unit economics analysis for Y.Afisha, an entertainment 
 
 **Key finding:** No cohort fully recovered its acquisition cost within the observed window; average cumulative ROMI reached only 0.67 by month 11, and the median customer placed just one order, pointing to retention and repeat purchase as bigger levers than acquisition volume alone.
 
-> 📓 [View Notebook](https://github.com/lucianajost/data_analytics_portfolio/blob/main/yafisha_business_analysis.ipynb) · 📊 [View Presentation](https://github.com/lucianajost/data_analytics_portfolio/blob/main/YAfisha_Analysis_LuJ_Portfolio.pdf)
+> 📓 [View Notebook](yafisha_business_analysis_EN.ipynb) · 📊 [View Presentation](YAfisha_Analysis_EN_LuJost.pdf)  
+> 🇧🇷 Also in Portuguese: [notebook](yafisha_business_analysis.ipynb) · [presentation](YAfisha_Analysis_LuJ_Portfolio.pdf)
 
 ---
 
@@ -63,7 +66,8 @@ Market viability analysis for a robot-service cafe concept in Los Angeles, cover
 
 **Key finding:** Cafes are the second most chain-dominant establishment type in the market (61.1%, after bakeries), and networks in the sample consistently favor compact units (25 to 30 seats) over large flagship locations, pointing to a repeatable, moderate-footprint format as the strongest entry strategy.
 
-> 📓 [View Notebook](https://github.com/lucianajost/data_analytics_portfolio/blob/main/analise_mercado_restaurantes_LA.ipynb) · 📊 [View Presentation](https://github.com/lucianajost/data_analytics_portfolio/blob/main/LA_Cafeteria_Investor_Deck_Sprint10_PT_LuJost.pdf)
+> 📓 [View Notebook](la_restaurant_market_analysis_EN.ipynb) · 📊 [View Presentation](LA_Cafeteria_Investor_Deck_EN_LuJost.pdf)  
+> 🇧🇷 Also in Portuguese: [notebook](analise_mercado_restaurantes_LA.ipynb) · [presentation](LA_Cafeteria_Investor_Deck_Sprint10_PT_LuJost.pdf)
 
 ---
 
@@ -76,7 +80,8 @@ Business decision analysis for an online store, combining ICE/RICE prioritizatio
 
 **Key finding:** After removing 58 users with cross-group contamination, group B showed a statistically significant conversion advantage over group A both in raw data (p ≈ 0.011) and after outlier removal (p ≈ 0.016), with no significant difference in average order value, supporting a decision to stop the test with group B as the winner.
 
-> 📓 [View Notebook](https://github.com/lucianajost/data_analytics_portfolio/blob/main/ab_test_hypothesis_prioritization.ipynb)
+> 📓 [View Notebook](ab_test_hypothesis_prioritization_EN.ipynb)  
+> 🇧🇷 Notebook also in Portuguese: [ab_test_hypothesis_prioritization.ipynb](ab_test_hypothesis_prioritization.ipynb)
 
 ---
 
@@ -102,7 +107,8 @@ Interactive dashboard for a video advertising team, showing which categories and
 
 **Key finding:** Entertainment accounts for 27.9% of all trending videos, more than double the second category. In the US, Music and Howto & Style weigh about twice as much as in other markets. The jump in total daily volume in February 2018 came from Japan entering the dataset, not from real growth.
 
-> 📊 [View Dashboard](https://public.tableau.com/views/YouTubeTrendingDashboard_17908531142200/Painel1)
+> 📊 [View Dashboard](https://public.tableau.com/views/YouTubeTrendingDashboard_17908531142200/Painel1) · 📑 [View Presentation](YouTube_Trending_Dashboard_EN_LuJost.pdf) · 📁 [Data (CSV)](youtube_trending_by_time.csv)  
+> 🇧🇷 Presentation also in Portuguese: [YouTube_Trending_Dashboard_PT_LuJost.pdf](YouTube_Trending_Dashboard_PT_LuJost.pdf)
 
 ---
 
