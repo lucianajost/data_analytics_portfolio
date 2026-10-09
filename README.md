@@ -112,5 +112,19 @@ Interactive dashboard for a video advertising team, showing which categories and
 
 ---
 
+### 📚 Book Reading App: SQL Analysis of a Competitor's Database
+SQL analysis of a competitor's book-service database (books, authors, publishers, ratings and written reviews) to inform the value proposition of a new reading app.
+
+**Tools:** SQL (PostgreSQL) · Python · Pandas · SQLAlchemy
+
+**Key topics:** Joins and subqueries · CTEs · Aggregation with HAVING · Avoiding inflated counts in one-to-many joins
+
+**Key finding:** Users rate far more often than they write: the database holds 6,456 ratings and 2,793 written reviews. Even the six most active users (more than 50 books rated) account for only about 5% of all reviews, which suggests the bigger opportunity lies in getting the many less active users to write, not only in engaging the most active ones.
+
+> 📓 [View Notebook](sql_book_app_analysis.ipynb) (in Portuguese)  
+> 🔒 Database credentials are read from environment variables and are not stored in the notebook. The database belongs to the bootcamp environment, so the notebook shows the results of the original run.
+
+---
+
 ## Contact
 [LinkedIn](https://www.linkedin.com/in/lujost) · lucianajostlj@gmail.com
