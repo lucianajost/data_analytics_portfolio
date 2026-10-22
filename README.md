@@ -8,7 +8,7 @@ That is how every project here is built: **a business question at the start, a r
 
 [LinkedIn](https://www.linkedin.com/in/lujost) · lucianajostlj@gmail.com
 
-📄 **[Download the full portfolio as a PDF](Luciana_Jost_Data_Analytics_Portfolio.pdf)** (14 pages, one page per project)
+📄 **[Download the full portfolio as a PDF](Luciana_Jost_Data_Analytics_Portfolio.pdf)** (14 pages, one page per project) · 🇧🇷 [Portuguese version](Luciana_Jost_Portfolio_Dados_PT.pdf)
 
 ---
 
