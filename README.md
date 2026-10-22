@@ -15,8 +15,8 @@ That is how every project here is built: **a business question at the start, a r
 | Area | Tools and methods |
 |---|---|
 | Data | SQL (PostgreSQL) · Python · Pandas · NumPy |
-| Statistics | A/B and A/A/B testing · Hypothesis testing (t-test, Mann-Whitney, z-test) · Multiple-testing correction |
-| Business analysis | Cohort analysis · Unit economics (LTV, CAC, ROMI) · Conversion funnels · ICE/RICE prioritization · Market sizing |
+| Statistics | A/B and A/A/B testing · Hypothesis testing (t-test, Mann-Whitney, z-test, Fisher) · Multiple-testing correction |
+| Business analysis | Customer experience · Cohort analysis · Unit economics (LTV, CAC, ROMI) · Conversion funnels · ICE/RICE prioritization · Market sizing |
 | Machine learning | Logistic regression · Random forest · K-Means and hierarchical clustering (scikit-learn) |
 | Visualization | Tableau · Matplotlib · Seaborn · Executive presentations |
 
@@ -27,6 +27,7 @@ That is how every project here is built: **a business question at the start, a r
 | Project | Business question | Main skills |
 |---|---|---|
 | [Y.Afisha: Unit Economics](#-yafisha-unit-economics-of-a-ticketing-platform) | Is marketing spend paying for itself? | Cohorts, LTV, CAC, ROMI |
+| [Olist: Customer Experience](#-olist-what-drives-negative-reviews-in-e-commerce) | What makes customers leave a bad review, and what weighs most? | Hypothesis testing, text classification, Tableau |
 | [Gym Churn Prediction](#-gym-customer-churn-prediction) | Who is about to cancel, and what keeps members? | Classification, clustering |
 | [A/B Test & Hypothesis Prioritization](#-ab-test-analysis--hypothesis-prioritization) | Which idea to test first, and did the test win? | ICE/RICE, Mann-Whitney |
 | [Food Delivery Funnel & A/A/B Test](#-food-delivery-app-funnel--aab-font-test) | Where do users drop out, and is the new font safe? | Funnel, z-test, Bonferroni |
@@ -52,6 +53,28 @@ Marketing efficiency analysis for an entertainment ticketing platform: user beha
 <img src="yafisha_unit_economics/images/cover.png" alt="Cumulative ROMI by month since first purchase" width="720">
 
 📓 [Notebook](yafisha_unit_economics/yafisha_unit_economics_EN.ipynb) · 📊 [Presentation](yafisha_unit_economics/yafisha_unit_economics_deck_EN.pdf) · 🇧🇷 [Portuguese version](yafisha_unit_economics/pt/)
+
+---
+
+## 📦 Olist: What Drives Negative Reviews in E-commerce
+
+**Final project of the TripleTen certification**, built on real data: 95,560 delivered and reviewed orders from Olist, a Brazilian e-commerce marketplace (Kaggle, January 2017 to August 2018). One in eight orders (12.8%) gets a 1 or 2 star review. The question: which parts of the purchase journey drive dissatisfaction, and which one weighs most?
+
+Four hypotheses grounded in consumer behavior theory (expectation disconfirmation, loss aversion) were tested on seven joined tables, with 9,194 negative comments classified by keyword and validated by hand.
+
+**Key findings:**
+- **Breaking the promise hurts more than waiting.** Late orders get 24 to 53 percentage points more negative reviews than on-time orders with a similar wait.
+- **70% of late customers review before the product arrives**, because the survey is sent on the estimated date. Those who review without the product give a 1 or 2 in about 80% of cases.
+- **On-time dissatisfaction comes from the product and from split orders.** Orders with more than one seller get 39 points more negative reviews, even when delivered on time.
+
+**Recommendations:** send the review survey after delivery is confirmed (with a sized A/B test to measure the causal effect), warn customers before a delay, prioritize logistics in the worst-performing states, notify split deliveries, and monitor product complaints by seller and category.
+
+**Tools:** Python · Pandas · SciPy · Matplotlib · Tableau Public  
+**Methods:** Data integration (7 tables) · Two-proportion z-test · Mann-Whitney U · Fisher's exact test · Bonferroni correction · Keyword text classification (94% precision on a hand-checked sample) · A/B test sizing
+
+<img src="olist_customer_experience/images/cover.png" alt="Negative review rate by days late, before and after receiving the order" width="720">
+
+📊 [Live dashboard](https://public.tableau.com/views/OlistExperinciadoclienteeavaliaonegativa/PainelOlist) · 📓 [Notebook](olist_customer_experience/pt/olist_customer_experience_PT.ipynb) · 📑 [Presentation](olist_customer_experience/pt/olist_customer_experience_deck_PT.pdf) (in Portuguese) · 📁 [Data](olist_customer_experience/pt/dados/)
 
 ---
 
