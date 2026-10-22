@@ -132,7 +132,7 @@ SQL analysis of a competitor's book service database (books, authors, publishers
 **Tools:** SQL (PostgreSQL) · Python · Pandas · SQLAlchemy  
 **Methods:** Joins and subqueries · CTEs · Aggregation with HAVING · Avoiding inflated counts in one-to-many joins
 
-📓 [Notebook](sql_book_app_analysis/pt/sql_book_app_analysis_PT.ipynb) (in Portuguese) · Database credentials are read from environment variables and never stored in the notebook. The database belongs to the bootcamp environment, so the notebook shows the results of the original run.
+📓 [Notebook](sql_book_app_analysis/sql_book_app_analysis_EN.ipynb) · 🇧🇷 [Portuguese version](sql_book_app_analysis/pt/) · Database credentials are read from environment variables and never stored in the notebook. The database belongs to the bootcamp environment, so the notebook shows the results of the original run.
 
 ---
 
