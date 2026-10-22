@@ -1,4 +1,4 @@
-# 🎟️ Y.Afisha: Unit Economics of a Ticketing Platform
+# 🎫 Y.Afisha: Unit Economics of a Ticketing Platform
 
 Marketing efficiency analysis for an entertainment ticketing platform: user behavior, cohort retention, and whether customer value covers the cost of acquiring them.
 
