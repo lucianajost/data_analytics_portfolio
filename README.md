@@ -8,6 +8,8 @@ That is how every project here is built: **a business question at the start, a r
 
 [LinkedIn](https://www.linkedin.com/in/lujost) · lucianajostlj@gmail.com
 
+📄 **[Download the full portfolio as a PDF](Luciana_Jost_Data_Analytics_Portfolio.pdf)** (14 pages, one page per project)
+
 ---
 
 ## Skills
@@ -26,8 +28,8 @@ That is how every project here is built: **a business question at the start, a r
 
 | Project | Business question | Main skills |
 |---|---|---|
-| [Y.Afisha: Unit Economics](#-yafisha-unit-economics-of-a-ticketing-platform) | Is marketing spend paying for itself? | Cohorts, LTV, CAC, ROMI |
 | [Olist: Customer Experience](#-olist-what-drives-negative-reviews-in-e-commerce) | What makes customers leave a bad review, and what weighs most? | Hypothesis testing, text classification, Tableau |
+| [Y.Afisha: Unit Economics](#-yafisha-unit-economics-of-a-ticketing-platform) | Is marketing spend paying for itself? | Cohorts, LTV, CAC, ROMI |
 | [Gym Churn Prediction](#-gym-customer-churn-prediction) | Who is about to cancel, and what keeps members? | Classification, clustering |
 | [A/B Test & Hypothesis Prioritization](#-ab-test-analysis--hypothesis-prioritization) | Which idea to test first, and did the test win? | ICE/RICE, Mann-Whitney |
 | [Food Delivery Funnel & A/A/B Test](#-food-delivery-app-funnel--aab-font-test) | Where do users drop out, and is the new font safe? | Funnel, z-test, Bonferroni |
@@ -38,21 +40,6 @@ That is how every project here is built: **a business question at the start, a r
 | [Zuber Rides in Chicago](#-zuber-ride-analysis-in-chicago) | Does weather change ride duration? | SQL, t-test |
 
 Each project folder has the notebook, the presentation deck and, where available, a Portuguese version in `pt/`.
-
----
-
-## 🎫 Y.Afisha: Unit Economics of a Ticketing Platform
-
-Marketing efficiency analysis for an entertainment ticketing platform: user behavior, cohort retention, and whether customer value covers the cost of acquiring them.
-
-**Key finding:** No cohort recovered its acquisition cost within the observed window. Average cumulative ROMI reached only 0.67 by month 11, and the median customer placed just one order. **Recommendation:** shift focus from acquisition volume to retention and repeat purchase.
-
-**Tools:** Python · Pandas · NumPy · Matplotlib · Seaborn  
-**Methods:** Cohort retention · Conversion timing · CAC · LTV · ROMI
-
-<img src="yafisha_unit_economics/images/cover.png" alt="Cumulative ROMI by month since first purchase" width="720">
-
-📓 [Notebook](yafisha_unit_economics/yafisha_unit_economics_EN.ipynb) · 📊 [Presentation](yafisha_unit_economics/yafisha_unit_economics_deck_EN.pdf) · 🇧🇷 [Portuguese version](yafisha_unit_economics/pt/)
 
 ---
 
@@ -75,6 +62,21 @@ Four hypotheses grounded in consumer behavior theory (expectation disconfirmatio
 <img src="olist_customer_experience/images/cover.png" alt="Negative review rate by days late, before and after receiving the order" width="720">
 
 📊 [Live dashboard](https://public.tableau.com/views/OlistExperinciadoclienteeavaliaonegativa/PainelOlist) · 📓 [Notebook](olist_customer_experience/olist_customer_experience_EN.ipynb) · 📑 [Presentation](olist_customer_experience/olist_customer_experience_deck_EN.pdf) · 📁 [Data](olist_customer_experience/dados/) · 🇧🇷 [Portuguese version](olist_customer_experience/pt/)
+
+---
+
+## 🎫 Y.Afisha: Unit Economics of a Ticketing Platform
+
+Marketing efficiency analysis for an entertainment ticketing platform: user behavior, cohort retention, and whether customer value covers the cost of acquiring them.
+
+**Key finding:** No cohort recovered its acquisition cost within the observed window. Average cumulative ROMI reached only 0.67 by month 11, and the median customer placed just one order. **Recommendation:** shift focus from acquisition volume to retention and repeat purchase.
+
+**Tools:** Python · Pandas · NumPy · Matplotlib · Seaborn  
+**Methods:** Cohort retention · Conversion timing · CAC · LTV · ROMI
+
+<img src="yafisha_unit_economics/images/cover.png" alt="Cumulative ROMI by month since first purchase" width="720">
+
+📓 [Notebook](yafisha_unit_economics/yafisha_unit_economics_EN.ipynb) · 📊 [Presentation](yafisha_unit_economics/yafisha_unit_economics_deck_EN.pdf) · 🇧🇷 [Portuguese version](yafisha_unit_economics/pt/)
 
 ---
 
@@ -190,7 +192,7 @@ Exploratory analysis and hypothesis testing for a new ride-sharing company in Ch
 **Tools:** Python · Pandas · Matplotlib · SciPy · SQL  
 **Methods:** Exploratory analysis · Data visualization · Two-sample t-test
 
-<img src="zuber_chicago_rides/images/03_top10_empresas_taxi.png" alt="Top 10 taxi companies by number of rides" width="420"> <img src="zuber_chicago_rides/images/04_top10_bairros_bar_horizontal.png" alt="Top 10 neighborhoods by average number of rides" width="420">
+<img src="zuber_chicago_rides/images/cover.png" alt="Hypothesis test result: weather changes ride duration" width="720">
 
 📓 [Notebook](zuber_chicago_rides/zuber_chicago_rides_EN.ipynb) · 📊 [Presentation](zuber_chicago_rides/zuber_chicago_rides_deck_EN.pdf) · 🇧🇷 [Portuguese version](zuber_chicago_rides/pt/)
 
