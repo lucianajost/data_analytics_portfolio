@@ -9,7 +9,7 @@ User behavior analysis for a food delivery app: the full purchase funnel from ma
 
 <img src="images/cover.png" alt="Conversion funnel: share of users reaching each step" width="720">
 
-📓 [Notebook](food_delivery_funnel_ab_test_EN.ipynb) · 📊 [Presentation](food_delivery_funnel_ab_test_deck_EN.pdf)
+📓 [Notebook](food_delivery_funnel_ab_test_EN.ipynb) · 📁 [Data](data/logs_exp_us.csv) · 📊 [Presentation](food_delivery_funnel_ab_test_deck_EN.pdf)
 
 ---
 

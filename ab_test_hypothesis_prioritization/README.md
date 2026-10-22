@@ -7,7 +7,9 @@ Decision support for an online store: ranking nine marketing hypotheses with ICE
 **Tools:** Python · Pandas · NumPy · SciPy · Matplotlib  
 **Methods:** ICE and RICE scoring · Test data validation · Mann-Whitney U test · Outlier-robust analysis
 
-📓 [Notebook](ab_test_hypothesis_prioritization_EN.ipynb) · 🇧🇷 [Portuguese version](pt/)
+<img src="images/cover.png" alt="Conversion by group, raw data and without outliers" width="720">
+
+📓 [Notebook](ab_test_hypothesis_prioritization_EN.ipynb) · 📊 [Presentation](ab_test_hypothesis_prioritization_deck_EN.pdf) · 🇧🇷 [Portuguese version](pt/)
 
 ---
 

@@ -17,6 +17,7 @@ That is how every project here is built: **a business question at the start, a r
 | Data | SQL (PostgreSQL) · Python · Pandas · NumPy |
 | Statistics | A/B and A/A/B testing · Hypothesis testing (t-test, Mann-Whitney, z-test) · Multiple-testing correction |
 | Business analysis | Cohort analysis · Unit economics (LTV, CAC, ROMI) · Conversion funnels · ICE/RICE prioritization · Market sizing |
+| Machine learning | Logistic regression · Random forest · K-Means and hierarchical clustering (scikit-learn) |
 | Visualization | Tableau · Matplotlib · Seaborn · Executive presentations |
 
 ---
@@ -26,6 +27,7 @@ That is how every project here is built: **a business question at the start, a r
 | Project | Business question | Main skills |
 |---|---|---|
 | [Y.Afisha: Unit Economics](#-yafisha-unit-economics-of-a-ticketing-platform) | Is marketing spend paying for itself? | Cohorts, LTV, CAC, ROMI |
+| [Gym Churn Prediction](#-gym-customer-churn-prediction) | Who is about to cancel, and what keeps members? | Classification, clustering |
 | [A/B Test & Hypothesis Prioritization](#-ab-test-analysis--hypothesis-prioritization) | Which idea to test first, and did the test win? | ICE/RICE, Mann-Whitney |
 | [Food Delivery Funnel & A/A/B Test](#-food-delivery-app-funnel--aab-font-test) | Where do users drop out, and is the new font safe? | Funnel, z-test, Bonferroni |
 | [Book App: SQL Analysis](#-book-reading-app-sql-analysis-of-a-competitors-database) | What can a competitor's data tell a new app? | SQL, CTEs, joins |
@@ -53,6 +55,21 @@ Marketing efficiency analysis for an entertainment ticketing platform: user beha
 
 ---
 
+## 🏋️ Gym Customer Churn Prediction
+
+Churn prediction and customer segmentation for a gym chain, turned into a retention plan with target groups and concrete actions.
+
+**Key finding:** 26.5% of members churned. A logistic regression predicts churn with 92.3% accuracy, 85.4% precision and 82.8% recall, slightly ahead of a random forest and easier to explain. Tenure and class attendance are the strongest signals. Of five customer segments, new members on short contracts churn at 51.3%, while members combining a partner or referral tie with a long contract churn at only 2.2%. **Recommendation:** a structured first 60 days for new short-contract members, incentives to move from monthly to longer contracts, and group classes built into onboarding.
+
+**Tools:** Python · Pandas · scikit-learn · SciPy · Matplotlib · Seaborn  
+**Methods:** Exploratory analysis · Logistic regression · Random forest · Hierarchical clustering · K-Means · Customer profiling
+
+<img src="gym_churn_prediction/images/churn_by_cluster.png" alt="Churn rate by customer cluster" width="420"> <img src="gym_churn_prediction/images/feature_importance.png" alt="Random forest feature importance" width="420">
+
+📓 [Notebook](gym_churn_prediction/gym_churn_prediction_EN.ipynb) · 📁 [Data](gym_churn_prediction/data/gym_churn_us.csv)
+
+---
+
 ## 🧪 A/B Test Analysis & Hypothesis Prioritization
 
 Decision support for an online store: ranking nine marketing hypotheses with ICE and RICE, then evaluating an A/B test that was still running.
@@ -62,7 +79,9 @@ Decision support for an online store: ranking nine marketing hypotheses with ICE
 **Tools:** Python · Pandas · NumPy · SciPy · Matplotlib  
 **Methods:** ICE and RICE scoring · Test data validation · Mann-Whitney U test · Outlier-robust analysis
 
-📓 [Notebook](ab_test_hypothesis_prioritization/ab_test_hypothesis_prioritization_EN.ipynb) · 🇧🇷 [Portuguese version](ab_test_hypothesis_prioritization/pt/)
+<img src="ab_test_hypothesis_prioritization/images/cover.png" alt="Conversion by group, raw data and without outliers" width="720">
+
+📓 [Notebook](ab_test_hypothesis_prioritization/ab_test_hypothesis_prioritization_EN.ipynb) · 📊 [Presentation](ab_test_hypothesis_prioritization/ab_test_hypothesis_prioritization_deck_EN.pdf) · 🇧🇷 [Portuguese version](ab_test_hypothesis_prioritization/pt/)
 
 ---
 
@@ -77,7 +96,7 @@ User behavior analysis for a food delivery app: the full purchase funnel from ma
 
 <img src="food_delivery_funnel_ab_test/images/cover.png" alt="Conversion funnel: share of users reaching each step" width="720">
 
-📓 [Notebook](food_delivery_funnel_ab_test/food_delivery_funnel_ab_test_EN.ipynb) · 📊 [Presentation](food_delivery_funnel_ab_test/food_delivery_funnel_ab_test_deck_EN.pdf)
+📓 [Notebook](food_delivery_funnel_ab_test/food_delivery_funnel_ab_test_EN.ipynb) · 📁 [Data](food_delivery_funnel_ab_test/data/logs_exp_us.csv) · 📊 [Presentation](food_delivery_funnel_ab_test/food_delivery_funnel_ab_test_deck_EN.pdf)
 
 ---
 
@@ -161,4 +180,4 @@ pip install -r requirements.txt
 jupyter notebook
 ```
 
-The datasets come from the TripleTen bootcamp and are not redistributed here; every notebook is saved with its outputs so results can be read without running the code.
+Every notebook is saved with its outputs, so results can be read without running any code. Some projects also include their dataset in a `data/` folder.
