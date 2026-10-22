@@ -16,7 +16,7 @@ Four hypotheses grounded in consumer behavior theory (expectation disconfirmatio
 
 <img src="images/cover.png" alt="Negative review rate by days late, before and after receiving the order" width="720">
 
-📊 [Live dashboard](https://public.tableau.com/views/OlistExperinciadoclienteeavaliaonegativa/PainelOlist) · 📓 [Notebook](pt/olist_customer_experience_PT.ipynb) · 📑 [Presentation](pt/olist_customer_experience_deck_PT.pdf) (in Portuguese) · 📁 [Data](pt/dados/)
+📊 [Live dashboard](https://public.tableau.com/views/OlistExperinciadoclienteeavaliaonegativa/PainelOlist) · 📓 [Notebook](olist_customer_experience_EN.ipynb) · 📑 [Presentation](olist_customer_experience_deck_EN.pdf) · 📁 [Data](dados/) · 🇧🇷 [Portuguese version](pt/)
 
 ---
 
